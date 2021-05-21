@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="calculator-container">
+
+        <div class="calci-box">
+
+            <div class="calci-heading">
+                <h2>Tip Calculator</h2>
+            </div>
+
+            <div class="calci-body">
+
+                <form action="">
+                    <div class="input-style">
+                        <label for="">How much was your bill?</label><br>
+                        <p> $<input type="text"  class="input-style-text" id="billamount" ></p>
+                    </div>
+
+                    <!-- <div class="input-style">
+                        
+                        <input type="text" class="input-style-text">
+                    </div> -->
+                    <p>How was your service?</p>
+                        <select id="serviceQual">
+                            <option disabled selected value="0">-- Choose an Option --</option>
+                            <option value="0.3">30&#37; &#45; Outstanding</option>
+                            <option value="0.2">20&#37; &#45; Good</option>
+                            <option value="0.15">15&#37; &#45; It was OK</option>
+                            <option value="0.1">10&#37; &#45; Bad</option>
+                            <option value="0.05">5&#37; &#45; Terrible</option>
+                        </select>
+                 <br>
+
+                    <div class="input-style gap">
+                        <label for="">How many people are sharing the bill?</label>
+                       <p> <input type="text" class="input-style-text" id="people_sharing">People</p>
+                    </div>
+                    <div class="calci-button" class="input-style-text">
+                        <button class="calci-btn">Calculate</button>
+                    </div>
+                </form>
+
+               
+
+            </div>
+            <div class="print-result">
+                   <sup>$</sup> <span class="tip">0.00</span>
+                   <small id="each">each</small>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/1ced77a374.js" crossorigin="anonymous"></script>
+</html>

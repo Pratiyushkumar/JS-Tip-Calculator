@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to right, rgba(27, 23, 23, 0.8),rgba(129, 0, 0, 1));
+}
+
+.calculator-container{
+    position: relative;
+    top: 4rem;
+    left: 30rem ;
+    
+}
+
+.calci-box{
+    border: 2px hidden rgba(206, 18, 18, 1);
+    border-radius: 30px;
+    width: 350px;
+    height: 450px;
+    background-color: whitesmoke;
+    
+}
+
+.calci-heading{
+    background-color: rgba(121, 17, 34, 1);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.calci-body{
+    margin-left:25px ;
+    font-size: 20px;
+
+}
+.input-style-text{
+    width: 250px;
+    height: 25px;
+    border-style: none;
+    box-shadow: -1.5px -1.5px 0.5px 1px lightgrey ;
+    /* background-color: gray; */
+}
+
+.input-style-text:focus{
+    outline: none;
+    /* background-color: white; */
+}
+
+.gap{
+    margin-top: 10px;
+}
+
+.calci-button{
+    margin-left: 50px;
+    
+}
+
+.calci-btn{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7b113a;
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(197, 194, 194);
+}
+
+.calci-btn:active{
+    outline: none;
+}
+
+.print-result{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
